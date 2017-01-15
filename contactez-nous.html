@@ -11,19 +11,17 @@
 	<body>
 		<div id="page-wrapper">
 			
-			<!-- Header -->
+			 <!-- Header -->
                                 <header id="header">
                                         <h1><a href="index.html">Whiskers Systems</a> hébergement Libre, et sympathique.</h1>
                                         <nav id="nav">
                                                 <ul>
                                                         <li><a href="index.html">Accueil</a></li>
                                                         <li>
-                                                                <a href="#" class="icon fa-angle-down">Menu</a>
+                                                                <a href="#" class="icon fa-angle-down">Offres</a>
                                                                 <ul>
                                                                         <li><a href="generic.html">Generic</a></li>
-                                                                        <li><a href="a-propos.html">À propos</a></li>
                                                                         <li><a href="contact.html">Contact</a></li>
-                                                                        <li><a href="contactez-nous.html">Contactez-nous</a></li>
                                                                         <li><a href="elements.html">Elements</a></li>
                                                                         <li>
                                                                                 <a href="#">Submenu</a>
@@ -36,11 +34,12 @@
                                                                         </li>
                                                                 </ul>
                                                         </li>
-                                                        <li><a href="#" class="button">Sign Up</a></li>
+                                                        <li><a href="a-propos.html">À propos</a></li>
+                                                        <li><a href="contactez-nous.html">Contact</a></li>
+                                                        <li><a href="http://status.whiskers.systems" class="button" target="blank">Status des services</a></li>
                                                 </ul>
                                         </nav>
                                 </header>
-
 
 			<!-- Main -->
 				<section id="main" class="container 75%">
@@ -55,7 +54,7 @@
 									<input type="text" name="name" id="name" value="" placeholder="Prénom et nom" />
 								</div>
 								<div class="6u 12u(mobilep)">
-									<input type="email" name="email" id="email" value="" placeholder="E-mail" />
+									<input type="email" name="_replyto" id="email" value="" placeholder="E-mail" />
 								</div>
 							</div>
 							<div class="row uniform 50%">
@@ -66,6 +65,7 @@
 							<div class="row uniform 50%">
 								<div class="12u">
 									<textarea name="message" id="message" placeholder="Entrez votre message" rows="6"></textarea>
+									<input type="hidden" name="_next" value="thanks.html" />
 								</div>
 							</div>
 							<div class="row uniform">
