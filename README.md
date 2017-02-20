@@ -14,5 +14,5 @@ Here is our company website, it's mainly based on the [Alpha](https://html5up.ne
 	-	Respond.js (j.mp/respondjs)
 	- Skel (skel.io)
 
-	### License
-	![](https://i.creativecommons.org/l/by/4.0/80x15.png) - This work is licensed under a Creative Commons Attribution 4.0 International License, please read the [LICENSE](LICENSE) file.
+### License
+![](https://i.creativecommons.org/l/by/4.0/80x15.png) - This work is licensed under a Creative Commons Attribution 4.0 International License, please read the [LICENSE](LICENSE) file.
