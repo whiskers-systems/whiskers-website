@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Nextcloud documentation | Whiskers Systems</title>
+		<title>Dedicated server | Whiskers Systems</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="../assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -28,9 +28,9 @@
 							<li>
 								<a href="#" class="icon fa-angle-down">Offers</a>
 								<ul>
-									<li><a href="../offers/private-account.html">Private account</a></li>
-									<li><a href="../offers/dedicated-server.html">Dedicated server</a></li>
-									<li><a href="../offers/consulting.html">Consulting</a></li>
+									<li><a href="private-account.html">Private account</a></li>
+									<li><a href="dedicated-server.html">Dedicated server</a></li>
+									<li><a href="consulting.html">Consulting</a></li>
 								</ul>
 							</li>
 							<li><a href="../about.html">About</a></li>
@@ -65,35 +65,59 @@
 
 			<!-- Main -->
 				<section id="main" class="container">
+
 					<header>
-						<h2>Nextcloud documentation</h2>
-						<p>Discover everything behind ou Nextcloud offers.</p>
-					</header>
-					<div class="box">
-						<h2>A complete plateform</h2>
-						<p>NextCloud is a rich service, storage and sharing platform. You can synchronize your files in the same way as Dropbox, Google Drive or iCloud, edit them collaboratively in the way of Google Docs, make videoconferences like Skype, manage your calendars as Google Calendar and synchronize your contacts identically than Google Contacts. There are also many other features available, including an RSS feed reader, bookmark manager, task manager and even e-mail client!</p>
-						<h2>Private account on shared server</h2>
-						<p>The account on a shared instance allows a single user (possibly a few) to benefit from all the features of Nextcloud at a lower cost.</p>
-						<h3>Offers matching your needs</h3>
-						<p>Choose from our proposals: 10 or 30 GB of storage, over 1, 3 or 12 months. If these are not suitable for you, <a href="https://whiskers.systems/en/contact-us.html">send us a message</a> from our contact form detailing your needs, We will offer you a totally personalized offer at an attractive price.</p>
-						<h3>Two options, to choose from</h3>
-						<p>We offer two different types of accounts: the first allows the encryption of your data on our server, the second allows access to the <a href="https://www.collaboraoffice.com/code/">Collabora Online (CODE)</a> software suite. Unfortunately these two options are not (yet) compatible, due to a technical limitation the Collabora server can't read the encrypted data from the Nextcloud server.</p>
-						<h3>A modular unit</h3>
-						<p>On request, we modify the available storage space on your account. If you want to reduce it we will refund the difference of what you have already paid. If you wish to increase it, we will submit a new payment request taking into account what you have already paid. Here there are no convoluted procedures and hidden charges.</p>
 						<h2>Dedicated server</h2>
-						<h3>Enterprise level services</h3>
-						<p>The dedicated server is ideal when you need maximum confidentiality and you are a group of multiple users. It is logically more expensive than a simple account on a shared infrastructure, here you are the only beneficiary of the hardware resources of our machines.</p>
-						<h3>Tailored offers</h3>
-						<p>For this type of service we do not make offers on the fly, send us an quote request <a href="https://whiskers.systems/en/offers/dedicated-server.html">from the dedicated page</a> and please answer the following questions:<br />
-							<ul>
-								<li>How many users will be using the server?</li>
-								<li>What volume of storage (to be shared between users) is needed?</li>
-								<li>Are you interested in the <a href="https://www.collaboraoffice.com/code/">Collabora Online</a> service?
-						<p>We are looking forward to your message, we will then return to you with a proposal and a detailed quote.</p>
-						<br />
-						<h6>Page modified on March 30, 2017
-						</p>
+						<p>Rent your own private server. Take advantage of dedicated resources and use your own domain name.</p>
+					</header>
+          <section class="box">
+            <p>It is the best solution for your association or company. We adapt the hardware resources according to your needs, indeed our offers are entirely tailor made.</p>
+            <div class="row">
+							<div class="6u 12u(mobilep)">
+								<h3>Nextcloud</h3>
+								<p>Nextcloud is a complete online service to replace Dropbox and the Google suite (Drive, Docs, etc). You will be able to upload your files, which you can then synchronize between your various devices with the dedicated applications. <a href="https://nextcloud.com">Nextcloud</a> can manage your files and directories, calendars, RSS feeds, bookmarks of your browser and you can even do video conferencing!</p>
+							</div>
+						<div class="6u 12u(mobilep)">
+							<h3>GitLab</h3>
+							<p>GitLab Community Edition is a free software forge for managing the development stages of software from A to Z. Enjoy unlimited repositories, fine-tune access to them and track tickets and reports. Bug while documenting your project in the built-in wiki. You can even set up the construction process, test, verification of your software with <a href="https://about.gitlab.com/gitlab-ci/">GitLab-CI</a>.</p>
+						</div>
 					</div>
+					<h3>Suite e-mail Mailcow</h3>
+					<p>Mailcow is a full email suite based on famous software Postfix, Dovecot, Spamassassin, ClamAV, OpenDKIM and the Roundcube webmail. The best of e-mail on your own server, the ideal solution to reappropriate your data. Access is secured by TLS with certificates <a href="https://letsencrypt.org">Let's Encrypt</a>.</p>
+				</section>
+
+				<section class="box">
+          <h2>Request a quote</h2>
+          <p>In order to answer your request in the best way, please detail your needs. We need the number of users, the amount of storage space, and so on.</p>
+          <form method="post" action="https://formspree.io/contact@whiskers.systems" method="POST">
+            <div class="row uniform 50%">
+              <div class="6u 12u(mobilep)">
+                <input type="text" name="name" id="name" value="" placeholder="Firstname and lastname" />
+              </div>
+              <div class="6u 12u(mobilep)">
+                <input type="email" name="_replyto" id="email" value="" placeholder="Email address" />
+              </div>
+            </div>
+            <div class="row uniform 50%">
+              <div class="12u">
+                <input type="text" name="subject" id="subject" value="" placeholder="Service wanted" />
+              </div>
+            </div>
+            <div class="row uniform 50%">
+              <div class="12u">
+                <textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+                <input type="hidden" name="_next" value="/en/thanks.html" />
+              </div>
+            </div>
+            <div class="row uniform">
+              <div class="12u">
+                <ul class="actions align-center">
+                  <li><input type="submit" value="Send your message" /></li>
+                </ul>
+              </div>
+            </div>
+          </form>
+				</section>
 				</section>
 
 			<!-- Footer -->
